@@ -16,8 +16,7 @@ Currently, Exana provide the following functions:
 * LCCT+M (Loop and call context tree with memory dataflow)
 * MemPat (Memory access pattern analysis)
 * Working set analysis
-* C2Sim (Advanced cache simulation with line-conflict detection, see [EuroPar 2017])
-
+* C2Sim (Advanced cache simulation with line-conflict detection, see the following "EuroPar 2017" paper) 
 
 ## How to build
 * Download Pin tool kit Intel64 linux.
@@ -45,7 +44,8 @@ For more details, please check HowToUse in ExanaPkg.
 
 The canonical publication to cite Exana and ExanaPkg is:
 
-* Yukinori Sato and Toshio Endo. “An Accurate Simulator of Cache-line Conflicts to Exploit the Underlying Cache Performance” 23rd International Europian Conference on Parallel and Distributed Computing (Euro-Par 2017), August 2017. (DOI: 10.1007/978-3-319-64203-1_9)
+* Yukinori Sato and Toshio Endo. “An Accurate Simulator of Cache-line Conflicts to Exploit the Underlying Cache Performance” 23rd International Europian Conference on Parallel and Distributed Computing (Euro-Par 2017), August 2017. (DOI: 10.1007/978-3-319-64203-1_9) [PDF (Author created version)](https://www.perf.cs.tut.ac.jp/~yukinori/EuroPar2017-sato-author-created-version.pdf)
+
 
 * Yukinori Sato, Shimpei Sato, and Toshio Endo. Exana: An Execution-driven Application Analysis Tool for Assisting Productive Performance Tuning. Proceedings of the 2nd Workshop on Software Engineering for Parallel Systems (SEPS 2015), held in conjunction with SPLASH2015, Pages 1-10, October 2015. (DOI: 10.1145/2837476.2837477)
 
