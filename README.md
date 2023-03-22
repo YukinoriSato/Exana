@@ -23,10 +23,15 @@ Currently, Exana provide the following functions:
 
     For information about Pin tool kit, please check:
     	http://pintool.org/ 
-    Here, Exana is verified using Pin 3.4 rev 97438 for Intel64 linux on CentOS 7.  (For Pin-2.x and CentOS 6, please use the previous version uploaded on Sep 2017.)
+    Here, Exana is verified using Pin 3.7 for Intel64 linux on CentOS 7.
+    
+% wget https://software.intel.com/sites/landingpage/pintool/downloads/pin-3.7-97619-g0d0c92f4f-gcc-linux.tar.gz
 
-* Unpack the pin-3.4-97438-gf90d1f746-gcc-linux
-* cd pin-3.4/source/tools
+For information about Pin tool kit, please check: https://software.intel.com/content/www/us/en/develop/articles/pin-a-dynamic-binary-instrumentation-tool.html
+
+Unpack the pin-3.7 (Due to the API update of Pin after 3.8, the current ExanaPkg can be executed before pin-3.7)
+    
+* cd pin-3.7xxxx/source/tools
 * git clone https://github.com/YukinoriSato/Exana.git
 * cd Exana
 * make
